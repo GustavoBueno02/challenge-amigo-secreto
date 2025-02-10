@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #112070;
+    --color-secondary: #fcf6e9;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-button: #a34c2d;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background: conic-gradient(red, yellow, green, blue, red);
     display: flex;
     justify-content: center;
     align-items: center;
