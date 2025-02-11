@@ -1,9 +1,9 @@
 :root {
     --color-primary: #112070;
-    --color-secondary: #fcf6e9;
+    --color-secondary: #fefaf2;
     --color-tertiary: #C4C4C4;
-    --color-button: #a34c2d;
-    --color-button-hover: #e55720;
+    --color-button: #2d41a3;
+    --color-button-hover: #202ae5;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -32,7 +32,7 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ body {
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
+    flex: 50%;
     background-color: var(--color-secondary);
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
